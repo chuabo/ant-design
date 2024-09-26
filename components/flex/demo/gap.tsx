@@ -18,7 +18,7 @@ const App: React.FC = () => {
       </Radio.Group>
       {gapSize === 'customize' && <Slider value={customGapSize} onChange={setCustomGapSize} />}
       <Flex gap={gapSize !== 'customize' ? gapSize : customGapSize}>
-        <Button type="primary">Primary</Button>
+        <Button type="primary">Primary2</Button>
         <Button>Default</Button>
         <Button type="dashed">Dashed</Button>
         <Button type="link">Link</Button>
